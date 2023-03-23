@@ -1,0 +1,19 @@
+{
+  "name": "@upbond/instagram-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "start:api": "node src/modules/instagram/withApi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "instagram-private-api": "^1.45.3",
+    "puppeteer": "^19.7.5"
+  }
+}
