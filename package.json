@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/main.js",
-    "start:api": "node src/modules/instagram/withApi.js"
+    "start:api": "node src/modules/instagram/withApi.js",
+    "csv2json": "node src/modules/instagram/convertDatasets.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csvtojson": "^2.0.10",
     "dotenv": "^16.0.3",
     "instagram-private-api": "^1.45.3",
     "puppeteer": "^19.7.5"

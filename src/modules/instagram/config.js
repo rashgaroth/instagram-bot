@@ -3,20 +3,6 @@ module.exports = {
     {
       username: '<your_username>',
       password: '<your_password>',
-      dms: [
-        {
-          username: 'trizal_pp',
-          text: 'Test ke 1'
-        },
-        {
-          username: 'rashgaroth',
-          text: 'Test ke 2'
-        },
-        {
-          username: 'rashtaurigae',
-          text: 'Test ke 3'
-        },
-      ]
     }
   ],
   selectors: {
