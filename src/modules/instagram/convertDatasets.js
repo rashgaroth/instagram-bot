@@ -18,12 +18,7 @@ const main = async () => {
             for (let i in json) {
               let obj = {}
               obj.username = json[i].Username
-              obj.text = `
-              GM! You're Invited! 
-
-              Come join our WEB3 Discord community and connect by individuals and groups with similar interested in web3 technology. Share information, network, and explore the exciting possibilities of web3 technology. Gather together with massive communities in the web3 space. 
-              
-              Join us now at https://discord.gg/4xKxgd8n8U`
+              obj.text = `GM! You're Invited!\n \nCome join our WEB3 Discord community and connect by individuals and groups with similar interested in web3 technology. Share information, network, and explore the exciting possibilities of web3 technology. Gather together with massive communities in the web3 space.\n \nJoin us now at https://discord.gg/4xKxgd8n8U`
               newArr.push(obj)
             }
             const dmsObj = {

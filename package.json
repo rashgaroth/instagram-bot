@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/main.js",
     "start:api": "node src/modules/instagram/withApi.js",
-    "csv2json": "node src/modules/instagram/convertDatasets.js"
+    "csv2json": "node src/modules/instagram/convertDatasets.js",
+    "start:chl": "node src/modules/instagram/challengeChecker.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "csvtojson": "^2.0.10",
     "dotenv": "^16.0.3",
     "instagram-private-api": "^1.45.3",

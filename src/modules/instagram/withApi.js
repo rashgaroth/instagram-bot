@@ -36,6 +36,7 @@ const main = async () => {
     console.log('[info]: successfully!')
     process.exit(0)
   } catch (error) {
+    console.error(error)
     throw new Error(error)
   }
 }
